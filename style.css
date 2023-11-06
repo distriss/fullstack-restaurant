@@ -41,10 +41,10 @@ body,h1,h2,h3,h4,h5,h6
 /* Header */
 
     .bg-img {
-    background-image: url('assets/img/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+        background-image: url('assets/img/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
       }
   
       .btn{
@@ -108,4 +108,8 @@ body,h1,h2,h3,h4,h5,h6
   .extra-large {
     height: 60px;
     font-size: 1.8rem;
+  }
+
+  .about-container {
+    background-color: #008d44;
   }
