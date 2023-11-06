@@ -33,12 +33,156 @@
 <header class="bg-img d-flex flex-column justify-content-between" id="home">
     <div></div>
     <div class="d-flex flex-column text-center">
-      <span class="display-1">REALLY<br>GOOD PIZZA</span>
+      <h1 class="display-1">Luca's Pizza Restaurant</h1>
+      <span class="display-5">REALLY GOOD PIZZA</span>
       <p><a href="#menu" class="btn btn-lg btn-dark hover-btn fs-2">Explore the menu</a></p>
     </div>
     <div class="d-flex">
       <span class="bg-dark text-white p-3 h2">Open from 10am to 11pm - Call  0123 456 7890</span>
     </div>
-  </header>
+</header>
+<!-- Menu -->
+<div id="menu" class="container-fluid bg-black text-white py-5 display-4">
+    <div class="container">
+        <h1 class="text-center display-2 mb-5">The Menu</h1>
+        <div class="text-center border border-dark">
+            <div class="d-flex">
+                <a id="mainLink" href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" class="col-4 tablink p-3 hover-red">Pizza</a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');" class="col-4 tablink p-3 hover-red">Pasta</a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Sides');" class="col-4 tablink p-3 hover-red">Sides</a>
+            </div>
+        </div>
+
+                <!-- Pizza Menu -->
+        <div id="Pizza" class="container-fluid menu p-4 bg-white">
+            <!-- Margherita -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Margherita</b></h3>
+                <span class="badge bg-dark text-white">£9.89</span>
+            </div>
+            <p class="text-muted">Special sauce, mozzarella, parmesan, jackfruit pepperoni</p>
+            <hr class="text-muted" />
+
+            <!-- Veggie Supreme -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Veggie Supreme</b></h3>
+                <span class="badge bg-dark text-white">£10.99</span>
+            </div>
+            <p class="text-muted">Tomato sauce, mozzarella, bell peppers, mushrooms, olives, onions</p>
+            <hr class="text-muted" />
+
+            <!-- Pepperoni Lover's -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Pepperoni Lover's</b></h3>
+                <span class="badge bg-dark text-white">£11.49</span>
+            </div>
+            <p class="text-muted">Tomato sauce, mozzarella, vegan pepperoni, red chili flakes</p>
+            <hr class="text-muted" />
+
+            <!-- Hawaiian Delight -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Hawaiian Delight</b></h3>
+                <span class="badge bg-dark text-white">£11.99</span>
+            </div>
+            <p class="text-muted">Tomato sauce, mozzarella, pineapple, vegan ham</p>
+            <hr class="text-muted" />
+
+            <!-- Mushroom Magic -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Mushroom Magic</b></h3>
+                <span class="badge bg-dark text-white">£10.49</span>
+            </div>
+            <p class="text-muted">Creamy mushroom sauce, mozzarella, garlic, fresh basil</p>
+            <hr class="text-muted" />
+        </div>
+
+        <!-- Pasta Menu -->
+        <div id="Pasta" class="container-fluid menu p-4 bg-white">
+            <!-- Spaghetti Pomodoro -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Spaghetti Pomodoro</b><span class="badge bg-grey small-tag">Favorite</span></h3>
+                <span class="badge bg-dark text-white">£9.49</span>
+            </div>
+            <p class="text-muted">Spaghetti with tomato sauce, garlic, fresh basil, and olive oil</p>
+            <hr class="text-muted" />
+
+            <!-- Penne Alfredo -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Penne Alfredo</b></h3>
+                <span class="badge bg-dark text-white">£10.99</span>
+            </div>
+            <p class="text-muted">Penne pasta in creamy garlic Alfredo sauce with roasted broccoli</p>
+            <hr class="text-muted" />
+
+            <!-- Linguine Pesto -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Linguine Pesto</b></h3>
+                <span class="badge bg-dark text-white">£10.49</span>
+            </div>
+            <p class="text-muted">Linguine with homemade basil pesto, cherry tomatoes, and pine nuts</p>
+            <hr class="text-muted" />
+
+            <!-- Rigatoni Primavera -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Rigatoni Primavera</b></h3>
+                <span class="badge bg-dark text-white">£11.49</span>
+            </div>
+            <p class="text-muted">Rigatoni pasta with sautéed seasonal vegetables in a light garlic sauce</p>
+            <hr class="text-muted" />
+
+            <!-- Lasagna -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Lasagna</b></h3>
+                <span class="badge bg-dark text-white">£12.99</span>
+            </div>
+            <p class="text-muted">Layered lasagna with vegan cheese, spinach, and tomato sauce</p>
+            <hr class="text-muted" />
+        </div>
+
+        <!-- Side Menu -->
+        <div id="Sides" class="container-fluid menu p-4 bg-white">
+            <!-- Garlic Bread -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Garlic Bread</b></h3>
+                <span class="badge bg-dark text-white">£4.49</span>
+            </div>
+            <p class="text-muted">Oven-baked garlic bread with herbs and olive oil</p>
+            <hr class="text-muted" />
+        
+            <!-- Chips -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Chips</b></h3>
+                <span class="badge bg-dark text-white">£3.99</span>
+            </div>
+            <p class="text-muted">Crispy potato chips served with ketchup</p>
+            <hr class="text-muted" />
+        
+            <!-- Side Salad -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Side Salad</b></h3>
+                <span class="badge bg-dark text-white">£4.99</span>
+            </div>
+            <p class="text-muted">Fresh mixed greens with balsamic vinaigrette</p>
+            <hr class="text-muted" />
+        
+            <!-- Sautéed Spinach -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Sautéed Spinach</b></h3>
+                <span class="badge bg-dark text-white">£5.49</span>
+            </div>
+            <p class="text-muted">Fresh spinach sautéed with garlic and olive oil</p>
+            <hr class="text-muted" />
+        
+            <!-- Onion Rings -->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h3 class="mb-0 display-3"><b>Onion Rings</b></h3>
+                <span class="badge bg-dark text-white">£5.99</span>
+            </div>
+            <p class="text-muted">Crispy battered onion rings served with a vegan dipping sauce</p>
+            <hr class="text-muted" />
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
