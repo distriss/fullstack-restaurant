@@ -217,6 +217,54 @@
         <img src="assets/img/restaurant.jpg" alt="restaurant" style="width: 100%;" class="my-3 img-greyscale">        
     </div>
 </div>
+<!-- Contact Form -->
+<div class="container-fuild bg-secondary text-white py-5 fs-2" id="contact">
+    <div class="container">
+        <h1 class="text-center display-2 mb-5">CONTACT US</h1>
+        <p>Find us at address in town, or call us at 0123 456 7890</p>
+        <p>
+            <span class="badge bg-dark">Book us now!</span>
+            We offer full-service catering for any size event. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi nesciunt architecto expedita odit consectetur quos, et quo exercitationem quam eaque porro in voluptas.
+        </p>
+        <p><b>Reserve</b> a table, ask for today's special or send us a message:</p>
+        <form action="/submit" method="POST">
+            <div class="mb-3">
+                <input type="text" class="form-control extra-large" required placeholder="Name" name="Name">
+            </div>
+            <div class="mb-3">
+                <input type="number" class="form-control extra-large" required placeholder="How many People" name="People">
+            </div>
+            <div class="mb-3">
+                <input type="datetime-local" class="form-control extra-large" required placeholder="Date and Time" name="date" value="2023-11-21T16:00">
+            </div>
+            <div class="mb-3">
+                <input type="textarea" class="form-control extra-large" required placeholder="Message" name="Message">
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-light btn-lg btn-block fs-2">SEND MESSAGE</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="text-center bg-dark text-white py-4 fs-2">
+    <div class="container py-5">
+        <h5 class="text-uppercase display-5">Luca's Pizza</h5>
+        <span class="display-4">Genuine Italian Flavors</span>
+        <p class="p-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+          voluptatem veniam, est atque cumque eum delectus sint!
+        </p>
+    </div>      
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    <span>© 2023 Copyright: Luca's Pizza</span>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
 <!-- Scripts -->
 <script src="script.js"></script>
 </body>
