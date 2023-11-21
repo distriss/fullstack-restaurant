@@ -1,3 +1,13 @@
+// Alert Box Display
+window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search)
+    if (urlParams.has('success')) {
+        alert('Reservation Successful')
+    } else if (urlParams.has('error')) {
+        alert('There was an error making the reservation. Please call 0123 456 7890')
+    }
+}
+
 // Menu Tabs
 function openMenu(event, menuName) {
     let menuArr = document.getElementsByClassName("menu");

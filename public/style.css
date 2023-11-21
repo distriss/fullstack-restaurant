@@ -57,6 +57,10 @@ body,h1,h2,h3,h4,h5,h6
         text-decoration: underline;
       }
 
+    .h1-container {
+      background-image: linear-gradient(#008d44b0 33%, #ffffffab 70%,rgba(255, 0, 0, 0.493)  80%);
+    }
+
 
 /* Menu */
 
